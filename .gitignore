@@ -1,0 +1,11 @@
+# Ignore the data folder
+data/
+
+# Ignore the bge-small folder
+bge-small/
+
+# Ignore all Jupyter Notebook files
+*.ipynb
+
+# Ignore the rsconnect folder
+rsconnect-python/

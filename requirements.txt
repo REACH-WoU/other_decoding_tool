@@ -1,0 +1,13 @@
+tqdm
+pandas
+numpy
+scikit-learn
+# InstructorEmbedding
+openpyxl
+rarfile
+py7zr
+torch
+shiny==0.10.2
+sentence_transformers==2.2.2
+openai
+huggingface_hub==0.20.2
