@@ -1,4 +1,13 @@
 from shiny import ui
+import markdown
+
+def render_readme():
+    with open("README.md", "r") as file:
+        content = file.read()
+
+    html_content = markdown.markdown(content)
+    
+    return html_content
 
 # CSS style to make the page visually appealing
 css_style = """
